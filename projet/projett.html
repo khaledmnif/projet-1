@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="projett.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E - SHOES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand ss " href="#">KSTORE</a>
+          <button class="navbar-toggler aa " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Homme</a></li>
+                  <li><a class="dropdown-item" href="#">Femme</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>   
+	  
+	  
+  </header>
+
+  <div id="tendances"></div>
+
+  <main>
+	  <div class="bloc-article">
+		  <ul class="article-ul">
+
+			  <a class="marge-left" href="#">
+				  <li>
+					  <img src="https://cdn.discordapp.com/attachments/734179817502539779/917497975436091432/tn_noir.png" alt="">
+					  <div class="ecritures-articles">
+						  <h2>Nike TN NOIR</h2>
+						  <p>169.99€</p>
+					  </div>
+				  </li>
+			  </a>
+
+			  <a class="marge-left" href="#">
+				  <li>
+					  <img src="data:image/jpeg;base64,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" alt="">
+					  <div class="ecritures-articles">
+						  <h2>Nike Air force</h2>
+						  <p>200.99€</p>
+					  </div>
+				  </li>
+			  </a>
+
+			  <a class="marge-left" href="#">
+				  <li>
+					  <img src="https://cdn.discordapp.com/attachments/734179817502539779/917497975436091432/tn_noir.png" alt="">
+					  <div class="ecritures-articles">
+						  <h2>Nike TN NOIR</h2>
+						  <p>169.99€</p>
+					  </div>
+				  </li>
+			  </a>
+
+			  <a class="marge-left" href="#">
+				  <li>
+					  <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/41ac131c-9f5a-448b-a6d7-a64dc6444766/chaussure-air-force-1-fontaka-pour-9PWGFX.png" alt="">
+					  <div class="ecritures-articles">
+						  <h2>Nike TN NOIR</h2>
+						  <p>169.99€</p>
+					  </div>
+				  </li>
+			  </a>
+
+		  </ul>
+	  </div>
+	  
+	  <div class="affiche-article">
+		  <a href="#">
+			  <div class="img-affiche-article"><h1>NIKE TN SUPREME</h1></div>
+		  </a>
+	  </div>
+
+	  <div class="bloc-article2 saut">
+		  <ul class="article-ul2">
+
+			  <a href="#">
+				  <li>
+					  <div class="ecritures-articles">
+						  <h2>Nike TN NOIR</h2>
+						  <p>169.99€</p>
+					  </div>
+				  </li>
+			  </a>
+
+			  <a href="#">
+				  <li>
+					  <div class="ecritures-articles">
+						  <h2>Nike TN NOIR</h2>
+						  <p>169.99€</p>
+					  </div>
+				  </li>
+			  </a>
+
+			  <a href="#">
+				  <li>
+					  <div class="ecritures-articles">
+						  <h2>Nike TN NOIR</h2>
+						  <p>169.99€</p>
+					  </div>
+				  </li>
+			  </a>
+
+		  </ul>
+	  </div>
+
+	 
+</header>
+
+<div id="tendances"></div>
+
+<main>
+	<div class="bloc-article">
+		<ul class="article-ul">
+
+			<a class="marge-left" href="#">
+				<li>
+					<img src="https://cdn-images.farfetch-contents.com/17/61/42/83/17614283_36855811_480.jpg" alt="">
+					<div class="ecritures-articles">
+						<h2>Nike TN NOIR</h2>
+						<p>169.99€</p>
+					</div>
+				</li>
+			</a>
+
+			<a class="marge-left" href="#">
+				<li>
+					<img src="https://photos6.spartoo.com/photos/221/22154092/22154092_350_A.jpg" alt="">
+					<div class="ecritures-articles">
+						<h2>
+							Stussy Nike Air Force 1</h2>
+						<p>200.99€</p>
+					</div>
+				</li>
+			</a>
+
+			<a class="marge-left" href="#">
+				<li>
+					<img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2022%2F04%2Fnike-off-white-air-force-1-af1-low-green-collaboration-sneakers-release-info-0.jpg?fit=max&cbr=1&q=90&w=750&h=500" alt="">
+					<div class="ecritures-articles">
+						<h2>
+					Air Force 1 de Nike </h2>
+						<p>162.99€</p>
+					</div>
+				</li>
+			</a>
+
+			<a class="marge-left" href="#">
+				<li>
+					<img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F12%2Fstussy-nike-air-force-1-mid-black-white-DJ7840-002-0.jpg?fit=max&cbr=1&q=90&w=750&h=500" alt="">
+					<div class="ecritures-articles">
+						<h2>Nike TN NOIR</h2>
+						<p>174.99€</p>
+					</div>
+				</li>
+			</a>
+
+		</ul>
+	</div>
+	
+	<div class="affiche-article">
+		<a href="#">
+			<div class="img-affiche-article"><h1>NIKE TN SUPREME</h1></div>
+		</a>
+	</div>
+
+	<div class="bloc-article2 saut">
+		<ul class="article-ul2">
+
+			<a href="#">
+				<li>
+					<div class="ecritures-articles">
+						<h2>Nike TN NOIR</h2>
+						<p>169.99€</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="#">
+				<li>
+					<div class="ecritures-articles">
+						<h2>Nike TN NOIR</h2>
+						<p>169.99€</p>
+					</div>
+				</li>
+			</a>
+
+			<a href="#">
+				<li>
+					<div class="ecritures-articles">
+						<h2>Nike TN NOIR</h2>
+						<p>169.99€</p>
+					</div>
+				</li>
+			</a>
+
+		</ul>
+	</div>
+
+
+
+
+<footer class="footer" id="footer">
+
+	<span class="col">
+	  <h3 class="col-title">Info</h3>
+	  <nav class="col-list">
+		<ul>
+		  <li><a href="#">Formats</a></li>
+		  <li><a href="#">Compression</a></li>
+		  <li><a href="#">Pricing</a></li>
+		  <li><a href="#">FAQ</a></li>
+		  <li><a href="#">Status</a></li>
+		</ul>
+	  </nav>
+	</span>
+  
+	<span class="col">
+	  <h3 class="col-title">Resources</h3>
+	  <nav class="col-list">
+		<ul>
+		  <li><a href="#">Developer API</a></li>
+		  <li><a href="#">Tools</a></li>
+		  <li><a href="#">Blog</a></li>
+		</ul>
+	  </nav>
+	</span>
+  
+	<span class="col">
+	  <h3 class="col-title">Company</h3>
+	  <nav class="col-list">
+		<ul>
+		  <li><a href="#">About Us</a></li>
+		  <li><a href="#">Sustainability</a></li>
+		  <li><a href="#">Terms of Service</a></li>
+		  <li><a href="#">Privacy</a></li>
+		</ul>
+	  </nav>
+	</span>
+  
+	<span class="col">
+	  <div class="subscribe-form-holder">
+		<h3 class="form-title">Subscribe to our email newsletter</h3>
+		<form action="#" onsubmit="return false" class="subscribe-form">
+		  <input type="email" name="email" id="email" class="email subscribe-input" autocomplete="off" placeholder="Your email">
+		  <button type="submit" class="subscribe-btn">Subscribe</button>
+		</form>
+	  </div>
+	  <div class="social-media">
+		<h3 class="social-col-title">Follow us</h3>
+		<ul class="social-media-list">
+		  <li><a href="#" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+				<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+			  </svg></a></li>
+		  <li><a href="#" class="twitter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+				<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+			  </svg></a></li>
+		  <li><a href="#" class="instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+				<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+			  </svg></a></li>
+		</ul>
+	  </div>
+	</span>
+  
+  </footer>
+
+</body>
+</html>
